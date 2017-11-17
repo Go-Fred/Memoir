@@ -100,9 +100,11 @@ Overwrite the remote branch with the local branch one step before
 `git push origin +nombranche`
 and then
 
-```git add
+```
+git add
 git commit
-git push```
+git push
+```
 
 ## 3. Branches
 
