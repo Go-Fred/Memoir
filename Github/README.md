@@ -34,11 +34,13 @@ Repo is a common abbreviation of repository.
 `git cd project
 git init`
 4. Copy your files in the folder (or at least add a readme 😉)
-`echo "# test12" >> README.md
+```shell
+echo "# test12" >> README.md
 git add README.md
 git commit -m "first commit"
 git remote add origin git@github.com:your-remote.git
-git push -u origin master`
+git push -u origin master
+```
 
 ### Cloning and forking on Github
 
@@ -100,7 +102,7 @@ Overwrite the remote branch with the local branch one step before
 `git push origin +nombranche`
 and then
 
-```
+```shell
 git add
 git commit
 git push
